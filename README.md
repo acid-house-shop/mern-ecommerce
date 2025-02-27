@@ -1,32 +1,33 @@
-<h1 align="center">E-Commerce Store 🛒</h1>
+# <h1 align="center">Acid House Clothing Colombia - E-Commerce Store 🛒</h1>
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+## Sobre Este Proyecto
 
-[Video Tutorial on Youtube](https://youtu.be/sX57TLIPNx8)
+Bienvenido al repositorio del E-Commerce de Acid House Clothing Colombia. Este proyecto está construido con la pila MERN (MongoDB, Express, React, Node.js) e integra múltiples funcionalidades para ofrecer una experiencia de compra fluida y segura.
 
-About This Course:
+### 🚀 Funcionalidades Principales:
+- 🏗️ Configuración del Proyecto
+- 🗄️ Integración con MongoDB & Redis
+- 💳 Configuración de Pagos con Stripe
+- 🔐 Sistema de Autenticación Robusto
+- 🔑 Uso de JWT con Tokens de Acceso y Refresh
+- 📝 Registro e Inicio de Sesión de Usuarios
+- 🛒 Lógica de E-Commerce Completa
+- 📦 Gestión de Productos y Categorías
+- 🛍️ Carrito de Compras
+- 💰 Proceso de Checkout con Stripe
+- 🏷️ Sistema de Códigos de Descuento
+- 👑 Panel de Administración
+- 📊 Análisis de Ventas
+- 🎨 Diseño con TailwindCSS
+- 🔒 Seguridad y Protección de Datos
+- 🚀 Caché con Redis
+- ⌛ Y mucho más...
 
--   🚀 Project Setup
--   🗄️ MongoDB & Redis Integration
--   💳 Stripe Payment Setup
--   🔐 Robust Authentication System
--   🔑 JWT with Refresh/Access Tokens
--   📝 User Signup & Login
--   🛒 E-Commerce Core
--   📦 Product & Category Management
--   🛍️ Shopping Cart Functionality
--   💰 Checkout with Stripe
--   🏷️ Coupon Code System
--   👑 Admin Dashboard
--   📊 Sales Analytics
--   🎨 Design with Tailwind
--   🛒 Cart & Checkout Process
--   🔒 Security
--   🛡️ Data Protection
--   🚀Caching with Redis
--   ⌛ And a lot more...
+---
 
-### Setup .env file
+## Configuración del Archivo .env
+
+Crea un archivo `.env` en la raíz del proyecto y agrega la siguiente configuración:
 
 ```bash
 PORT=5000
@@ -46,14 +47,36 @@ CLIENT_URL=http://localhost:5173
 NODE_ENV=development
 ```
 
-### Run this app locally
+---
 
+## Ejecutar la Aplicación Localmente
+
+Clona el repositorio y sigue estos pasos:
+
+### 1️⃣ Instalar Dependencias
+```shell
+npm install
+```
+
+### 2️⃣ Compilar el Proyecto
 ```shell
 npm run build
 ```
 
-### Start the app
-
+### 3️⃣ Iniciar la Aplicación
 ```shell
 npm run start
 ```
+
+---
+
+## Contribuciones 🛠️
+Si deseas contribuir al proyecto, siéntete libre de hacer un fork y enviar un Pull Request con tus mejoras.
+
+---
+
+## 📩 Contacto
+Para cualquier consulta o colaboración, puedes contactarnos a través de nuestro sitio web oficial o redes sociales.
+
+**Acid House Clothing Colombia** ✨
+
